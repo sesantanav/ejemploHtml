@@ -9,6 +9,7 @@ var alumno = {
     carrera: "Ingeniería informática",
     ingreso: "2018"
   },
+
   // métodos
   getNombre: function(){
     var mensaje = "El nombre es: " + this.nombre;
