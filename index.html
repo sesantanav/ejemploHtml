@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="funciones.js"></script>
+  <script src="objetos.js"></script>
+<script>
+ // window.alert("Window alert")
+ // console.log("console log")
+ // document.write("ejemplo document write")
+</script>
+</head>
+<body onload="alert('Pagina')">
+
+  <section>  
+    <h2>Ejemplo 2</h2>
+    <p id="parrafo">
+    Texto ejemplo
+    </p>
+    <button onclick="cambiarTexto()">Cambiar</button>
+  </section>
+  <p>El resultado de la operación es: </p>
+  <p id="resultado"></p>
+
+  <script>
+    var resultadoSuma = suma(1,2);
+    document.getElementById("resultado").innerHTML = resultadoSuma; 
+  </script>
+</body>
+</html>
